@@ -14,13 +14,15 @@ func main() {
 	//%v is simply a placeholder that references a varible. This comes in handy.
 
 	var firstName, lastName string = "Marcus", "Morris"
-	var (
+
+	/*var (
 		age      = 31
 		myHeight = "5'7"
 		myWeight = 188
-	)
+	)*/
+
 	fmt.Printf("My name is %v %v \n", firstName, lastName)
-	fmt.Printf("I am %v years old, I stand %v and weigh %v pounds.\n", age, myHeight, myWeight)
+	//fmt.Printf("I am %v years old, I stand %v and weigh %v pounds.\n", age, myHeight, myWeight)
 
 	//Multiple Varibles can be declared in shorthand as well.
 	wifeName, wifeLastName := "Aziah", "Morris"
