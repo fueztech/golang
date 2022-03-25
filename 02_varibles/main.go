@@ -25,8 +25,8 @@ func main() {
 	//fmt.Printf("I am %v years old, I stand %v and weigh %v pounds.\n", age, myHeight, myWeight)
 
 	//Multiple Varibles can be declared in shorthand as well.
-	wifeName, wifeLastName := "Aziah", "Morris"
-	fmt.Printf("I love my wife %v %v, she makes me smile!\n", wifeName, wifeLastName)
+	friendName, friendLastName := "Latoya", "Griggs"
+	fmt.Printf("I love my friend %v %v, she makes me smile!\n", friendName, friendLastName)
 
 	var (
 		height = 8
